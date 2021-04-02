@@ -65,7 +65,7 @@ class Header extends PureComponent {
                     <NavItem className="left active">首页</NavItem>
                     <NavItem className="left">下载App</NavItem>
                     <NavItem className="right">
-                        <i className="iconfont">&#xe636;</i>
+                        {/* <i className="iconfont">&#xe636;</i> */}
                     </NavItem>
                     {
                         login?
@@ -99,13 +99,6 @@ class Header extends PureComponent {
                 </Nav>
             </HeaderWrapper>
         )
-    }
-    componentDidMount(){
-        // this.test()
-        console.log(this.props)
-    }
-    test(){
-        console.log(111)
     }
 }
 
